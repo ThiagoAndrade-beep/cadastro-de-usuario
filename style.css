@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0078F0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-form-cadastro {
+    background-color: #FFFF;
+    width: 518px;
+    height: 610px;
+    padding: 20px 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 100px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.container-form-login{
+    background-color: #FFFF;
+    width: 518px;
+    height: 610px;
+    padding: 20px 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 100px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.container-form-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container-form-text h1 {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.container-form-text span {
+    color: #0078F0;
+}
+
+.container-form-text p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 700;
+}
+
+.inputs p {
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    padding-left: 5px;
+}
+
+.inputs {
+    align-self: flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background: #F5F7FA;           
+    border: 1px solid #CCD2E0; 
+    border-radius: 8px;
+    outline: none;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+
+.container-form-button {
+    width: 100%;
+}
+
+button {
+    background-color: #0078F0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 12px;
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#input-email {
+    background: url(img/do-utilizador.png) no-repeat;
+    background-size: 20px;
+    background-position: 415px center;
+}
+
+#input-email-login {
+    background: url(img/do-utilizador.png) no-repeat;
+    background-size: 20px;
+    background-position: 415px center;
+}
+
+#input-senha {
+    background: url(img/trancar.png) no-repeat;
+    background-size: 23px;
+    background-position: 415px center;
+}
+
+#input-senha-login {
+    background: url(img/trancar.png) no-repeat;
+    background-size: 23px;
+    background-position: 415px center;
+}
+
+.none {
+    display: none;
+}
